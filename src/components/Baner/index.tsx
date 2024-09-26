@@ -1,4 +1,6 @@
-import Link from 'next/link';
+
+
+//import Link from 'next/link';
 import styles from './Baner.module.scss';
 
 const Baner = () => {
@@ -11,7 +13,7 @@ const Baner = () => {
       </div>
       <div>
         <img 
-          src="/mining.svg"  
+          src="/mining.svg"
           alt="Mining Equipment"
           className={styles.heroImage}
         />
