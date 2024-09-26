@@ -2,7 +2,7 @@
 
 //import Link from 'next/link';
 import styles from './Baner.module.scss';
-
+import Image from 'next/image';
 const Baner = () => {
   return (
     <section className={styles.hero}>
@@ -12,7 +12,7 @@ const Baner = () => {
         <button className={styles.ctaButton}>Получить актуальные цены</button>
       </div>
       <div>
-        <img 
+        <Image 
           src="/mining.svg"
           alt="Mining Equipment"
           className={styles.heroImage}

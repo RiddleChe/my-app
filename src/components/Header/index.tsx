@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import styles from './Header.module.scss';
-
+import Image from 'next/image';
 function Header() {
   return (
 <header className={styles.header}>
   <div className={styles['header-left']}>
-    <img
+    <Image
       src="/logo.svg"
       alt="Interhash Logo"
       className={styles.logo}
@@ -28,10 +28,10 @@ function Header() {
   </nav>
   <div className={styles['header-right']}>
     <a href="https://t.me/yourtelegram" className={styles['social-link']}>
-      <img src="/telegram.png" alt="Telegram" />
+      <Image src="/telegram.png" alt="Telegram" />
     </a>
     <a href="https://wa.me/79810381762" className={styles['social-link']}>
-      <img src="/whatsapp.png" alt="WhatsApp" />
+      <Image src="/whatsapp.png" alt="WhatsApp" />
     </a>
     <span className={styles.phone}>+7 981 03-81-762</span>
   </div>

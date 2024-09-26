@@ -1,6 +1,6 @@
-import Link from 'next/link';
+//import Link from 'next/link';
 import styles from './Footer.module.scss';
-
+import Image from 'next/image';
 export default function Footer() {
 
     return (
@@ -9,10 +9,10 @@ export default function Footer() {
             <div className={styles.footerSection}>
               <h4>Связаться с нами</h4>
               <ul>
-                <li><a href="https://t.me/viainterhash_bot"><img src="/telegram_mini.svg" alt="Telegram" /> @viainterhash_bot</a></li>
-                <li><a href="mailto:info@interhash.ru"><img src="/mail.svg" alt="Email" /> info@interhash.ru</a></li>
-                <li><a href="tel:+79810381762"><img src="/phone.svg" alt="Phone" /> +7 981 03 81 762</a></li>
-                <li>ООО "Интерхеш"</li>
+                <li><a href="https://t.me/viainterhash_bot"><Image src="/telegram_mini.svg" alt="Telegram" /> @viainterhash_bot</a></li>
+                <li><a href="mailto:info@interhash.ru"><Image src="/mail.svg" alt="Email" /> info@interhash.ru</a></li>
+                <li><a href="tel:+79810381762"><Image src="/phone.svg" alt="Phone" /> +7 981 03 81 762</a></li>
+                <li>ООО &quot;Интерхеш&quot;</li>
                 <li>г. Москва, ул. Доброслободская, д. 7/1</li>
                 <li>ИНН: 9701207352</li>
               </ul>
@@ -56,17 +56,17 @@ export default function Footer() {
               <h4>Методы оплаты</h4>
               <ul>
                 <li>
-                  <img src="/BitcoinBadge.svg" alt="BitcoinBadge" />
-                  <img src="/EthereumBadge.svg" alt="EthereumBadge" />
-                  <img src="/TetherBadge.svg" alt="TetherBadge" />
-                  <img src="/RuBadge.svg" alt="RuBadge" />
+                  <Image src="/BitcoinBadge.svg" alt="BitcoinBadge" />
+                  <Image src="/EthereumBadge.svg" alt="EthereumBadge" />
+                  <Image src="/TetherBadge.svg" alt="TetherBadge" />
+                  <Image src="/RuBadge.svg" alt="RuBadge" />
                 </li>
                 <li>Возможна оплата в рассрочку и лизинг</li>
               </ul>
             </div>
           </div>
           <div className={styles.footerBottom}>
-            <img src="/logo.svg" alt="Interhash Logo" className={styles.logo} />
+            <Image src="/logo.svg" alt="Interhash Logo" className={styles.logo} />
             <p>Interhash © 2022. Все права защищены.</p>
           </div>
         </footer>
