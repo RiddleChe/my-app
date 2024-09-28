@@ -5,6 +5,7 @@ import Baner from "@/components/Baner";
 import ProductOfferings from '@/components/ProductOfferings';
 import BestSellers from '@/components/BestSellers';
 import Promo from "@/components/Promo";
+import PartnerBanner from "@/components/PartnerBanner";
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
         <ProductOfferings />
         <BestSellers />
         <Promo />
+        <PartnerBanner />
       </div>
     );
   }

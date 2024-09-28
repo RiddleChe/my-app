@@ -1,0 +1,20 @@
+.partnerBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5; /* Цвет фона, можно изменить */
+    padding: 20px; /* Отступы */
+    margin: 40px 0;
+  }
+  
+  .text {
+    font-size: 18px;
+    margin-right: 10px; /* Отступ между текстом и логотипом */
+    color: #232323; /* Цвет текста */
+  }
+  
+  .logo {
+    height: 30px; /* Высота логотипа */
+    object-fit: contain; /* Подгонка изображения по размеру */
+  }
+  
