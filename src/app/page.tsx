@@ -6,6 +6,7 @@ import ProductOfferings from '@/components/ProductOfferings';
 import BestSellers from '@/components/BestSellers';
 import Promo from "@/components/Promo";
 import PartnerBanner from "@/components/PartnerBanner";
+import EquipmentSelection from "@/components/EquipmentSelection";
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
         <BestSellers />
         <Promo />
         <PartnerBanner />
+        <EquipmentSelection />
       </div>
     );
   }
