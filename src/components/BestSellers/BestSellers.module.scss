@@ -6,10 +6,12 @@
   .productsection h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: left;
   }
   
   .productsection h4 {
     font-size: 14px;
+    text-align: left;
     color: gray;
     margin-bottom: 20px;
   }
@@ -29,7 +31,7 @@
   }
   
   .productcard img {
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 10px;
   }
@@ -43,5 +45,22 @@
   .productcard h3 {
     font-size: 16px;
     margin-top: 5px;
+  }
+
+  .CatalogButton {
+    padding: 12px 30px;
+    background-color: #6f3ff5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto; 
+
+    &:hover {
+      background-color: #5a33d1;
+    }
   }
   

@@ -9,9 +9,9 @@ export default function Footer() {
             <div className={styles.footerSection}>
               <h4>Связаться с нами</h4>
               <ul>
-                <li><a href="https://t.me/viainterhash_bot"><Image src="/telegram_mini.svg" alt="Telegram" /> @viainterhash_bot</a></li>
-                <li><a href="mailto:info@interhash.ru"><Image src="/mail.svg" alt="Email" /> info@interhash.ru</a></li>
-                <li><a href="tel:+79810381762"><Image src="/phone.svg" alt="Phone" /> +7 981 03 81 762</a></li>
+                <li><a href="https://t.me/viainterhash_bot"><Image src="/telegram_mini.svg" width={100} height={100} alt="Telegram" /> @viainterhash_bot</a></li>
+                <li><a href="mailto:info@interhash.ru"><Image src="/mail.svg" width={100} height={100} alt="Email" /> info@interhash.ru</a></li>
+                <li><a href="tel:+79810381762"><Image src="/phone.svg" width={28} height={28} alt="Phone" /> +7 981 03 81 762</a></li>
                 <li>ООО &quot;Интерхеш&quot;</li>
                 <li>г. Москва, ул. Доброслободская, д. 7/1</li>
                 <li>ИНН: 9701207352</li>
@@ -56,17 +56,17 @@ export default function Footer() {
               <h4>Методы оплаты</h4>
               <ul>
                 <li>
-                  <Image src="/BitcoinBadge.svg" alt="BitcoinBadge" />
-                  <Image src="/EthereumBadge.svg" alt="EthereumBadge" />
-                  <Image src="/TetherBadge.svg" alt="TetherBadge" />
-                  <Image src="/RuBadge.svg" alt="RuBadge" />
+                  <Image src="/BitcoinBadge.svg" width={28} height={28} alt="BitcoinBadge" />
+                  <Image src="/EthereumBadge.svg" width={28} height={28} alt="EthereumBadge" />
+                  <Image src="/TetherBadge.svg" width={28} height={28} alt="TetherBadge" />
+                  <Image src="/RuBadge.svg" width={28} height={28} alt="RuBadge" />
                 </li>
                 <li>Возможна оплата в рассрочку и лизинг</li>
               </ul>
             </div>
           </div>
           <div className={styles.footerBottom}>
-            <Image src="/logo.svg" alt="Interhash Logo" className={styles.logo} />
+            <Image src="/logo.svg" width={191} height={36} alt="Interhash Logo" className={styles.logo} />
             <p>Interhash © 2022. Все права защищены.</p>
           </div>
         </footer>

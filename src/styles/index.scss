@@ -1,0 +1,34 @@
+//@import 'reset';
+
+
+@font-face {
+    font-family: 'MoulaBlack';
+    src: url('/fonts/Moula Black.woff2') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Moula';
+    src: url('/fonts/Moula.woff2') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+h1,h2,h3,h4,h5{
+    font-family: 'MoulaBlack';
+    font-weight: 700;
+}
+
+
+p, li, span{
+    font-family: 'Moula';
+    font-weight: 700;
+}
+
+button{
+    font-family: 'Moula';
+    font-weight: 700;
+}

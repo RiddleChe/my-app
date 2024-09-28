@@ -4,7 +4,9 @@
   background-image: url('/header.svg'); // Укажите путь к вашему фоновому изображению
   background-size: cover;
   background-position: center;
-  padding: 100px 20px;
+  padding: 0px 0px;
+  height: 420px;
+  border-radius: 10px;
   display: flex;
   justify-content: space-between; /* Разделяем содержимое на две части: текст и изображение */
   align-items: center;
@@ -13,11 +15,11 @@
 .heroContent {
   max-width: 600px; /* Ограничиваем ширину текстовой части */
   color: white;
+  margin-left: 50px;
 }
 
 .heroTitle {
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 44px;
   margin-bottom: 20px;
 }
 
@@ -27,20 +29,21 @@
 }
 
 .ctaButton {
-  background-color: #6c63ff; // Цвет кнопки
-  color: white;
-  padding: 15px 30px;
+  background: linear-gradient(90deg, #f850a9 0%, #6e54ec 100%);
   border: none;
-  border-radius: 8px;
-  font-size: 18px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-
+  transition: transform 0.3s ease;
+  
   &:hover {
-    background-color: #534bff; // Цвет кнопки при наведении
+    transform: scale(1.05);
   }
 }
 
 .heroImage {
-  max-width: 400px; /* Ограничиваем ширину изображения кирки */
+  margin-top: 70px;
+  max-width: 467px; /* Ограничиваем ширину изображения кирки */
 }

@@ -1,0 +1,66 @@
+.promoSection {
+    background-color: #232323;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: left;
+    color: #fff;
+    max-height: 250px;
+  }
+  
+  .content {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    justify-content: space-between; /* Раздвинуть заголовок и кнопку по сторонам */
+    gap: 20px; /* Добавить отступ между заголовком и кнопкой */
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .title {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background: linear-gradient(90deg, #f850a9 0%, #6e54ec 100%);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .features {
+    display: flex;
+    //justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .featureItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+    gap: 10px;
+    max-width: 300px;
+    
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    p {
+      font-size: 21px;
+    }
+  }
+  
