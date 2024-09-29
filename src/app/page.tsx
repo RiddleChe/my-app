@@ -10,6 +10,7 @@ import EquipmentSelection from "@/components/EquipmentSelection";
 import SelectionAsic from "@/components/SelectionAsic";
 import Questions from "@/components/Questions";
 import Blog from "@/components/Blog";
+import Forma from "@/components/Forma";
 
 export default function Home() {
     return (
@@ -22,6 +23,7 @@ export default function Home() {
         <EquipmentSelection />
         <SelectionAsic />
         <Questions />
+        <Forma />
         <Blog />
       </div>
     );

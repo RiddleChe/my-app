@@ -1,0 +1,72 @@
+.formaSection {
+    background-color: #232323;
+    
+    padding: 40px;
+    border-radius: 10px;
+    text-align: left;
+    color: #fff;
+    max-height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 0 15% 0 5%;
+    
+  }
+  .contacts{
+    //margin-left: 5%;
+  }
+  .contacts h3{
+    font-size: 38px;
+  }
+  .feedbeack h3{
+    font-size: 38px;
+  }
+  .contact p{
+    font-size: 16px;
+  }
+  .titlep{
+    font-size: 24px;
+  }
+  .contact{
+    display: flex;
+    align-items: center;
+    
+
+    img{
+        margin-right: 10px;
+    }
+  }
+
+.feedbeack{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+}
+
+.contact-input{
+    width: 446px;
+    height: 55px;
+    min-width: 200px;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+.checkboxcontainer{
+    display: flex;
+}
+.button {
+    background: linear-gradient(90deg, #f850a9 0%, #6e54ec 100%);
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  
