@@ -4,19 +4,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F5F5F5; /* Цвет фона, можно изменить */
-    padding: 20px; /* Отступы */
+    background-color: #F5F5F5; 
+    padding: 20px; 
     margin: 40px 0;
   }
   
   .text {
     font-size: 18px;
-    margin-right: 10px; /* Отступ между текстом и логотипом */
-    color: #232323; /* Цвет текста */
+    margin-right: 10px; 
+    color: #232323;
   }
   
   .logo {
-    height: 30px; /* Высота логотипа */
-    object-fit: contain; /* Подгонка изображения по размеру */
+    height: 30px; 
+    object-fit: contain; 
   }
   

@@ -9,7 +9,7 @@ export default function PartnerBanner() {
             Мы являемся эксклюзивным партнером
           </p>
           <Image
-            src="/viabtc.svg" // Путь к логотипу ViaBTC
+            src="/viabtc.svg" 
             width={119}
             height={33}
             alt="ViaBTC"

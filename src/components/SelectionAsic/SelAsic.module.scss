@@ -1,0 +1,51 @@
+.selasicSection {
+  background-color: #232323;
+  color: #fff;
+  display: flex;
+  margin-top: 40px;
+  //align-items: center;
+  //justify-content: space-between; 
+}
+.selasicSection img {
+  margin: 0 130px 0 0;
+}
+
+.asicc{
+  display: block;
+}
+
+@media (max-width: 810px) {
+  .asicc{
+    display: none;
+  }
+}
+
+.content {
+  //padding: 40px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 60px;
+
+  p{
+    font-size: 24px;
+  }
+}
+
+
+.button {
+  background: linear-gradient(90deg, #f850a9 0%, #6e54ec 100%);
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+}

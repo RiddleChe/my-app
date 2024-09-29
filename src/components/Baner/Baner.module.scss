@@ -1,19 +1,19 @@
-// src/components/HeroSection/HeroSection.module.scss
+
 
 .hero {
-  background-image: url('/header.svg'); // Укажите путь к вашему фоновому изображению
+  background-image: url('/header.svg'); 
   background-size: cover;
   background-position: center;
   padding: 0px 0px;
   height: 420px;
   border-radius: 10px;
   display: flex;
-  justify-content: space-between; /* Разделяем содержимое на две части: текст и изображение */
+  justify-content: space-between; 
   align-items: center;
 }
 
 .heroContent {
-  max-width: 600px; /* Ограничиваем ширину текстовой части */
+  max-width: 600px; 
   color: white;
   margin-left: 50px;
 }
@@ -45,5 +45,12 @@
 
 .heroImage {
   margin-top: 70px;
-  max-width: 467px; /* Ограничиваем ширину изображения кирки */
+  max-width: 467px;
+}
+
+@media (max-width: 760px) {
+
+  .heroImage {
+      display: none;
+  }
 }

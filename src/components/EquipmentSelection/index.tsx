@@ -6,7 +6,7 @@ export default function EquipmentSelection() {
     return (
         <div className={styles.equipment}>
           <div className={styles.title}>
-            <h2>Подберите свое оборудование <br />для майнинга</h2>
+            <h2>ПОДБЕРИ СВОЕ ОБОРУДОВАНИЕ<br />ДЛЯ МАЙНИНГА</h2>
             </div>
           <div className={styles.advantages}>
             <div className={styles.advantage}>
